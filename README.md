@@ -1,5 +1,7 @@
 # JavaScript template strings class work
 
+Good start. Partial credit on #1 and #2. See index.js for comments. Score : 2 points. 
+
 ### Exercise 1:
 Create a template string and assign it to the variable ```my_template_string```.
 

@@ -1,32 +1,23 @@
-//
-// ### Exercise 1:
-//
-// var name = "Christian";
-// var id = "12234";
-// var address = "123 Code Street";
-//
-// console.log(`
-// My name is ${name}
-// My id is ${id}
-// My address is ${address}
-//
+// EX 1
+var name = "Christian";
+var id = "12234";
+var address = "123 Code Street";
 
-//Ex2
+// your template string is supposed to be assigned to a variable
+console.log(`
+My name is ${name}
+My id is ${id}
+My address is ${address}`)
+// you didn't close your string template
 
-// var contestant = "1_M_l337!";
-// var score = "9001";
-//
-// console.log(`
-//     Congragiulations
-//             ${contestant}
-//     Your new score is:
-//             ${score}`);
-//
-//
+// EX 2
+var contestant = "1_M_l337!";
+var score = "9001";
 
-
-
-
+console.log(
+`Congragiulations ${contestant}
+Your new score is: ${score}`);
+// not sure how you were trying to format but if you want to have multiplt lines it's easier to line up against the wall
 
 
 // ### Exercise 3:
